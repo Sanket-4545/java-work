@@ -1,4 +1,4 @@
-public class LargestSting {
+public classLargestSting  {
     public static void main(String[] args) {
         String names[] = { "Sanket" , "Dhanraj" , "Tejas"};
         String largestStr = names [0];
