@@ -1,4 +1,4 @@
-public class Substring {
+public class  {
     public static String Substring(String str, int si, int ei) {
         String subString = "";
         for (int i = si ; i< ei ; i++){
