@@ -1,0 +1,1 @@
+public static boolean StaircaseSearch(int matrix[][],int key) {
