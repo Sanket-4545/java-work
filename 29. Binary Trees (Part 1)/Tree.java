@@ -30,6 +30,7 @@ public class Tree
         }
         int leftCount = count(root.left);
         int rightCount = count(root.right);
+        // Count the current node plus all left and right subtrees
         return leftCount + rightCount +1;
     }
 }
