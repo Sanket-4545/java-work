@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class CommonAncestor {
+public class LCA {
 
     static class Node {
         int data;

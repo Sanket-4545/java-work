@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
+import java.util.*;
 public class swapindex {
 
     public static void swip(ArrayList<Integer> element, int index1, int index2 ) {

@@ -33,7 +33,7 @@ static class stsck{
 
     public static void main(String[] args) {
         stsck s = new stsck();
-
+ 
         s.push(1);
         s.push(2);
         s.push(3);

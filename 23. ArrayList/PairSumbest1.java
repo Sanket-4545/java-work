@@ -4,7 +4,7 @@ public class PairSumbest1 {
         int lb = 0;
         int rb = list.size()-1;
 
-        while (lb < rb) {
+        while (lb != rb) {
             int sum = list.get(lb) + list.get(rb);
             if (sum == target) {
                 return true;    

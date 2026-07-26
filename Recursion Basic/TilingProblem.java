@@ -14,6 +14,6 @@ return totalway;
 }
     public static void main(String[] args) {
         
-        System.out.print(6);
+        System.out.println(tilingProblem(5));
     }
 }
