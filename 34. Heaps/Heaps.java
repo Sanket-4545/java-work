@@ -21,6 +21,7 @@ public int peek(){
     
 }
  public static void main(String[] args) {
-  
+ 
+  }
  }   
-}
+
