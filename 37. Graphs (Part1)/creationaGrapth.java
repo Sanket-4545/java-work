@@ -45,6 +45,7 @@ public class creationaGrapth {
         for (int i = 0; i < graph[1].size(); i++) {
             Edge e = graph[1].get(i);
             System.out.println(e.dest);
+            
         }
     }
 }
