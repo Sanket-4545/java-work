@@ -9,9 +9,19 @@ public class practiceOfArray {
         }
         return total;
     }
+    public static int maxElement(int arr[]){
+        int max = 0; 
+        for(int i = 0 ; i<arr.length ; i++){
+            if (arr[i]>max) {
+               max = arr[i]; 
+            }
+        
+        }
+        return max;
+    }
 
     public static void main(String[] args) {
-        int arr[] = {3, 4, 5, 6};
+        int arr[] = {3, 4, 9, 6};
 
         // Print elements of array
         System.out.println("Elements of array are:");
@@ -22,5 +32,8 @@ public class practiceOfArray {
         // Sum of elements of array
         int result = sum(arr);
         System.out.println("Sum of array elements: " + result);
+
+        int Max = maxElement(arr);
+        System.out.println("Max element of array is: " + Max);
     }
 }
