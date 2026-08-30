@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class arrayOpration {
+public class introOfArra {
 
     public static int sum(int arr[]) {
         int total = 0;
